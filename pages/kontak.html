@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Syifanna Dea Arrahma</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <div class="brand">SYIFANNA DEA ARRAHMA</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">🏠 Beranda</a></li>
+          <li><a href="tentang.html">👤 Tentang Saya</a></li>
+          <li><a href="jaringan.html">🌐 Jaringan Komputer</a></li>
+          <li><a href="iot-arduino.html">🤖 IoT & Arduino</a></li>
+          <li><a href="karya-proyek.html">💡 Galeri Proyek</a></li>
+          <li><a href="kontak.html" class="active">📬 Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Formulir Kontak</h2>
+      
+      <div class="form-container">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nama">Nama Pengirim</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="kategori">Kategori Pesan</label>
+            <select id="kategori" name="kategori" required>
+              <option value="">-- Pilih Kategori --</option>
+              <option value="pertanyaan">Pertanyaan</option>
+              <option value="kolaborasi">Kolaborasi</option>
+              <option value="saran">Saran</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="pesan">Pesan Teks</label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Informasi Kontak Lainnya</h2>
+      <div class="table-container">
+        <table>
+          <tr>
+            <th>Email Sekolah</th>
+            <td>Syifanaaramah5@gmail.com</td>
+          </tr>
+          <tr>
+            <th>Lokasi</th>
+            <td>Kota Mojokerto, Jawa Timur</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Syifanna Dea Arrahma. Hak Cipta Dilindungi.</p>
+    <p>
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> | 
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
